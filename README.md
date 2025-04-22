@@ -6,18 +6,25 @@ This project has been developped on a Windows 11 laptop, with a Nvidia GPU, with
 
 ## Français
 ### Prérequis 
-L'utilisation de la LLM pour ce projet nécessite d'avoir un compilateur C++ installé sur votre ordinateur. 
+L'utilisation de la LLM pour ce projet nécessite :<br>
+1. Un compilateur C++ installé sur votre ordinateur. 
 <br><code>https://visualstudio.microsoft.com/visual-cpp-build-tools/</code><br>
 S'assurer de cocher :
 - Compilateur C++ MSVC (ex. v14.x)
 - CMake	
 - Windows 11 SDK 
-- Build Tools pour C++ (ex. MSBuild, nmake, etc.)
+- Build Tools pour C++ (ex. MSBuild, nmake, etc.)<br>
+
+2. Python (testé avec 3.13.2) <br>
+3. Git (testé avec 2.49.0.windows.1) <br>
+
+Chacune de ces installations **doit être accessible dans le Path**, dans les variables d'environnement utilisateur/système 
 
 ### Installation 
 Ce projet fonctionne sous Windows 11
 Pour utiliser ce projet, vous devez 
-- Cloner ce dépôt git (ou bien le télécharger en .zip, et l'extraire sur votre machine locale)
+- Cloner **la branche principale (main)** de ce dépôt git (ou bien le télécharger en .zip, et l'extraire sur votre machine locale)
+<br><code>git clone --branch main --single-branch https://github.com/Ad-Sou/local_IA_summary</code><br>
 - Ouvrir une console Windows **cmd**
 - Naviguer à l'emplacement du fichier
 <br><code>cd chemin/vers/votre/dossier</code><br>
