@@ -5,10 +5,18 @@ ___
 This project has been developped on a Windows 11 laptop, with a Nvidia GPU, with Python 3.13.2
 
 ## Français
+### Prérequis
+Ce projet nécessite : 
+- Python (testé avec 3.13.2)<br>
+- Git (testé avec 2.49.0.windows.1)<br>
+
+Ainsi que les *variables d'environnement* correspondantes ajoutées au Path 
 ### Installation
 Ce projet fonctionne sous Windows 11
 Pour utiliser ce projet, vous devez 
-- Cloner ce dépôt git (ou bien le télécharger en .zip, et l'extraire sur votre machine locale)
+- Cloner ce dépôt git 
+<br><code>git clone --recurse-submodules https://github.com/Ad-Sou/local_IA_summary</code><br>
+(télécharger en .zip et extraire ne permet pas le téléchargement automatique de whisper-small, il faut alors le faire manuellement. Privilégiez la commande <code>git clone</code>)
 - Ouvrir une console Windows **cmd**
 - Naviguer à l'emplacement du fichier
 <br><code>cd chemin/vers/votre/dossier</code><br>
