@@ -5,7 +5,16 @@ ___
 This project has been developped on a Windows 11 laptop, with a Nvidia GPU, with Python 3.13.2
 
 ## Français
-### Installation
+### Prérequis 
+L'utilisation de la LLM pour ce projet nécessite d'avoir un compilateur C++ installé sur votre ordinateur. 
+<br><code>https://visualstudio.microsoft.com/visual-cpp-build-tools/</code><br>
+S'assurer de cocher :
+- Compilateur C++ MSVC (ex. v14.x)
+- CMake	
+- Windows 11 SDK 
+- Build Tools pour C++ (ex. MSBuild, nmake, etc.)
+
+### Installation 
 Ce projet fonctionne sous Windows 11
 Pour utiliser ce projet, vous devez 
 - Cloner ce dépôt git (ou bien le télécharger en .zip, et l'extraire sur votre machine locale)
@@ -19,6 +28,7 @@ Pour utiliser ce projet, vous devez
 Vous devriez vois le nom de votre environnement vitruel entre parenthèses (ici, *venv*) au début de la ligne de votre console
 - Télécharger les dépendances (nécessite d'avoir pip installé)
 <br><code>pip install -r requirements.txt</code><br>
+
 
 ### Execution
 Pour exécuter ce projet, il doit avoir été correctement installé au préalable. Il suffit ensuite de 
