@@ -5,13 +5,16 @@ import os
 import time
 from transformers import pipeline
 from datetime import datetime
+from pathlib import Path
 
 # Configuration
 DURATION = 5  # secondes par segment
 SAMPLE_RATE = 16000
 OUTPUT_WAV = "temp_audio.wav"
 TRANSCRIPT_FILE = "transcription.txt"
-MODEL_PATH = "C:/Users/Ad/Desktop/LLM_project/whisper_small"
+PARENT_PATH = Path(__file__).parent
+MODEL_PATH = PARENT_PATH / "whisper_small" 
+
 
 # Chargement du modèle
 asr = pipeline("automatic-speech-recognition", model=MODEL_PATH)
