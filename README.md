@@ -20,6 +20,10 @@ Pour utiliser ce projet, vous devez
 - Ouvrir une console Windows **cmd**
 - Naviguer à l'emplacement du fichier
 <br><code>cd chemin/vers/votre/dossier</code><br>
+ 
+**TEMPORAIRE** : Cloner manuellement *whisper_small* à l'adresse suivante
+<br><code> https://huggingface.co/openai/whisper-small </code><br>
+et ajouter le contenu dans le dossier *whisper_small*
 - **Créer un environnement virtuel** dans le bon dossier avec la commande suivante (nécessite d'avoir python installé) 
 <br><code>python -m venv venv</code><br> 
 - Activer l'environnement virtuel avec la commande suivante
